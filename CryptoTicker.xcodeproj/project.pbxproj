@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24938A2A813C922C6E6213D5 /* Pods_CryptoTickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F102EA0D39E017D36FB2533 /* Pods_CryptoTickerTests.framework */; };
+		A28EC36382ACD88CFFCB1D14 /* Pods_CryptoTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16734096D38DE48157FD2D9 /* Pods_CryptoTicker.framework */; };
 		C9CCDF8925D1E6F2004EDF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF8825D1E6F2004EDF08 /* AppDelegate.swift */; };
 		C9CCDF8B25D1E6F2004EDF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF8A25D1E6F2004EDF08 /* SceneDelegate.swift */; };
 		C9CCDF9225D1E6F3004EDF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CCDF9125D1E6F3004EDF08 /* Assets.xcassets */; };
 		C9CCDF9525D1E6F3004EDF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CCDF9325D1E6F3004EDF08 /* LaunchScreen.storyboard */; };
 		C9CCDFA025D1E6F3004EDF08 /* CryptoTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF9F25D1E6F3004EDF08 /* CryptoTickerTests.swift */; };
 		C9CCDFAB25D1E6F3004EDF08 /* CryptoTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDFAA25D1E6F3004EDF08 /* CryptoTickerUITests.swift */; };
+		DC080BD9F6D346B51499C588 /* Pods_CryptoTicker_CryptoTickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC62743FAEB0B1DD61662A5 /* Pods_CryptoTicker_CryptoTickerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3CF3411E9CC3CACC8DF2CC /* Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests/Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8D15284520BDB94205D1DC /* Pods-CryptoTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTicker.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTicker/Pods-CryptoTicker.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6716EA15EB0561EFA179D7 /* Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig"; path = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests/Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F102EA0D39E017D36FB2533 /* Pods_CryptoTickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6EA529B7227B6CCB7D285B /* Pods-CryptoTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTicker.release.xcconfig"; path = "Target Support Files/Pods-CryptoTicker/Pods-CryptoTicker.release.xcconfig"; sourceTree = "<group>"; };
+		C16734096D38DE48157FD2D9 /* Pods_CryptoTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CCDF8525D1E6F2004EDF08 /* CryptoTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CCDF8825D1E6F2004EDF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CCDF8A25D1E6F2004EDF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		C9CCDFA625D1E6F3004EDF08 /* CryptoTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CCDFAA25D1E6F3004EDF08 /* CryptoTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTickerUITests.swift; sourceTree = "<group>"; };
 		C9CCDFAC25D1E6F3004EDF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC62743FAEB0B1DD61662A5 /* Pods_CryptoTicker_CryptoTickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTicker_CryptoTickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB43E73702805689B79A269 /* Pods-CryptoTickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTickerTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4061E8F1FF3B6E9CFB9C048 /* Pods-CryptoTickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTickerTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28EC36382ACD88CFFCB1D14 /* Pods_CryptoTicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24938A2A813C922C6E6213D5 /* Pods_CryptoTickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC080BD9F6D346B51499C588 /* Pods_CryptoTicker_CryptoTickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96F9413348FA0D5E053ECDBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C16734096D38DE48157FD2D9 /* Pods_CryptoTicker.framework */,
+				CCC62743FAEB0B1DD61662A5 /* Pods_CryptoTicker_CryptoTickerUITests.framework */,
+				8F102EA0D39E017D36FB2533 /* Pods_CryptoTickerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9665EE025D1E75100F8C69E /* Supports */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +123,8 @@
 				C9CCDF9E25D1E6F3004EDF08 /* CryptoTickerTests */,
 				C9CCDFA925D1E6F3004EDF08 /* CryptoTickerUITests */,
 				C9CCDF8625D1E6F2004EDF08 /* Products */,
+				F334AC90D0CF0699528D58DE /* Pods */,
+				96F9413348FA0D5E053ECDBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +165,20 @@
 			path = CryptoTickerUITests;
 			sourceTree = "<group>";
 		};
+		F334AC90D0CF0699528D58DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D15284520BDB94205D1DC /* Pods-CryptoTicker.debug.xcconfig */,
+				BA6EA529B7227B6CCB7D285B /* Pods-CryptoTicker.release.xcconfig */,
+				4E3CF3411E9CC3CACC8DF2CC /* Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig */,
+				5C6716EA15EB0561EFA179D7 /* Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig */,
+				CEB43E73702805689B79A269 /* Pods-CryptoTickerTests.debug.xcconfig */,
+				D4061E8F1FF3B6E9CFB9C048 /* Pods-CryptoTickerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CCDFAF25D1E6F3004EDF08 /* Build configuration list for PBXNativeTarget "CryptoTicker" */;
 			buildPhases = (
+				2C447BFE828FF15082C2248C /* [CP] Check Pods Manifest.lock */,
 				C9CCDF8125D1E6F2004EDF08 /* Sources */,
 				C9CCDF8225D1E6F2004EDF08 /* Frameworks */,
 				C9CCDF8325D1E6F2004EDF08 /* Resources */,
@@ -162,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CCDFB225D1E6F3004EDF08 /* Build configuration list for PBXNativeTarget "CryptoTickerTests" */;
 			buildPhases = (
+				E496CC38BB0E54F21A13A686 /* [CP] Check Pods Manifest.lock */,
 				C9CCDF9725D1E6F3004EDF08 /* Sources */,
 				C9CCDF9825D1E6F3004EDF08 /* Frameworks */,
 				C9CCDF9925D1E6F3004EDF08 /* Resources */,
@@ -180,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CCDFB525D1E6F3004EDF08 /* Build configuration list for PBXNativeTarget "CryptoTickerUITests" */;
 			buildPhases = (
+				AE944E30C4F2D998A861E7E0 /* [CP] Check Pods Manifest.lock */,
 				C9CCDFA225D1E6F3004EDF08 /* Sources */,
 				C9CCDFA325D1E6F3004EDF08 /* Frameworks */,
 				C9CCDFA425D1E6F3004EDF08 /* Resources */,
@@ -261,6 +305,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C447BFE828FF15082C2248C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoTicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE944E30C4F2D998A861E7E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoTicker-CryptoTickerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E496CC38BB0E54F21A13A686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoTickerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9CCDF8125D1E6F2004EDF08 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		C9CCDFB025D1E6F3004EDF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8D15284520BDB94205D1DC /* Pods-CryptoTicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +567,7 @@
 		};
 		C9CCDFB125D1E6F3004EDF08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6EA529B7227B6CCB7D285B /* Pods-CryptoTicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +588,7 @@
 		};
 		C9CCDFB325D1E6F3004EDF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB43E73702805689B79A269 /* Pods-CryptoTickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +611,7 @@
 		};
 		C9CCDFB425D1E6F3004EDF08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4061E8F1FF3B6E9CFB9C048 /* Pods-CryptoTickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +634,7 @@
 		};
 		C9CCDFB625D1E6F3004EDF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3CF3411E9CC3CACC8DF2CC /* Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +655,7 @@
 		};
 		C9CCDFB725D1E6F3004EDF08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6716EA15EB0561EFA179D7 /* Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

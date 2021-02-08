@@ -1,0 +1,6 @@
+framework module Pods_CryptoTicker {
+  umbrella header "Pods-CryptoTicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

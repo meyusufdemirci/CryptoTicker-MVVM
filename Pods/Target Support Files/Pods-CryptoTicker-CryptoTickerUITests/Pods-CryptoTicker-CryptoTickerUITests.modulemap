@@ -1,0 +1,6 @@
+framework module Pods_CryptoTicker_CryptoTickerUITests {
+  umbrella header "Pods-CryptoTicker-CryptoTickerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

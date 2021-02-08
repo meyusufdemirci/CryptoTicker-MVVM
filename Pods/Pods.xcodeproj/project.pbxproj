@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8DD9AFC0A9D33C16E3D164986E671C /* Pods-CryptoTicker-CryptoTickerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6913BF7C3B46D66DAD9B19774E4D8C65 /* Pods-CryptoTicker-CryptoTickerUITests-dummy.m */; };
+		15613AD4BB208987318600803406FB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1C0498B8E83E1D85CB3574BF3218CF9D /* Pods-CryptoTickerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38107DEA462B2AE06AE83FA13AB70F /* Pods-CryptoTickerTests-dummy.m */; };
+		1F2C67AC6FA27BED16C42CFE320E1AED /* Pods-CryptoTicker-CryptoTickerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECD26DD7367918C9B73F9DE377AA3E1 /* Pods-CryptoTicker-CryptoTickerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86AE93BC79B398636792D92FBBCFC879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B7090C42629299F51480A7C5668A478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA176E761C73A055AE36B8A3C3C6E9E6 /* Pods-CryptoTickerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 724A16E344FA0F88E97EAC0EAD9F4682 /* Pods-CryptoTickerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B9044CC3247484A2E0AE4BF8772E8C /* Pods-CryptoTicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612853560B2F7F70B3190F962E1C8466 /* Pods-CryptoTicker-dummy.m */; };
+		E3D51B6D73CE4C5F83643E85DA5BAD4E /* Pods-CryptoTicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2259D4A23CBD3C9BC3882D2FB50370 /* Pods-CryptoTicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B123B3B7E04D25A5498E9A6FEC9EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220A7E51576D9B88E99D4F0E8B26417F;
+			remoteInfo = "Pods-CryptoTicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C11C4BCE43F204B117043CD869B90CE /* Pods-CryptoTickerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoTickerTests-Info.plist"; sourceTree = "<group>"; };
+		131A215B565CB3F70E2C77BE61B2927E /* Pods-CryptoTicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoTicker.modulemap"; sourceTree = "<group>"; };
+		1B476F06664A3913B29AC8F50B2A050A /* Pods_CryptoTicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoTicker.framework; path = "Pods-CryptoTicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE772A31D998CFE396F30D0A929293B /* Pods-CryptoTicker-CryptoTickerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoTicker-CryptoTickerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28D346E6CA5CA11CE619D0B4482D4F11 /* Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C2259D4A23CBD3C9BC3882D2FB50370 /* Pods-CryptoTicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoTicker-umbrella.h"; sourceTree = "<group>"; };
+		2C38107DEA462B2AE06AE83FA13AB70F /* Pods-CryptoTickerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoTickerTests-dummy.m"; sourceTree = "<group>"; };
+		3F7DDA53FFDA74A0697D5C0BDEC914CA /* Pods-CryptoTickerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoTickerTests.modulemap"; sourceTree = "<group>"; };
+		420BC5D6DB7176480BBAAF03BB24457F /* Pods-CryptoTicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoTicker.debug.xcconfig"; sourceTree = "<group>"; };
+		4A70FF5D488B2CBA86DCCCCC1A6B531C /* Pods-CryptoTicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoTicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F62294F578AB31FD07EC700910BC5F4 /* Pods-CryptoTickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoTickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5ECD26DD7367918C9B73F9DE377AA3E1 /* Pods-CryptoTicker-CryptoTickerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoTicker-CryptoTickerUITests-umbrella.h"; sourceTree = "<group>"; };
+		612853560B2F7F70B3190F962E1C8466 /* Pods-CryptoTicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoTicker-dummy.m"; sourceTree = "<group>"; };
+		6913BF7C3B46D66DAD9B19774E4D8C65 /* Pods-CryptoTicker-CryptoTickerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoTicker-CryptoTickerUITests-dummy.m"; sourceTree = "<group>"; };
+		724A16E344FA0F88E97EAC0EAD9F4682 /* Pods-CryptoTickerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoTickerTests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9A2F591E8FE589C33915051A60F214AC /* Pods_CryptoTicker_CryptoTickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoTicker_CryptoTickerUITests.framework; path = "Pods-CryptoTicker-CryptoTickerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A695F03BFB57E938D220215DFB5DC338 /* Pods-CryptoTicker-CryptoTickerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoTicker-CryptoTickerUITests.modulemap"; sourceTree = "<group>"; };
+		ADF212A064B1B2012E42FCF05169829A /* Pods-CryptoTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoTicker.release.xcconfig"; sourceTree = "<group>"; };
+		BE6A398625341D1656CBCBAAA9BAEE1C /* Pods-CryptoTickerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoTickerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1AE3D7F5321CC73AC9750DEBA29C80C /* Pods-CryptoTicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoTicker-Info.plist"; sourceTree = "<group>"; };
+		DEBE8716145F983701DFF8E3711C6648 /* Pods-CryptoTicker-CryptoTickerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoTicker-CryptoTickerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0B6ABA5F6A8618E302235E1B141B600 /* Pods-CryptoTicker-CryptoTickerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoTicker-CryptoTickerUITests-Info.plist"; sourceTree = "<group>"; };
+		E3BCFB70C99EDF66966307DB574E6179 /* Pods_CryptoTickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoTickerTests.framework; path = "Pods-CryptoTickerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF86E74D96F5FB1BF2CABF42D6C8D41D /* Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2BB0CBBDAA6054986D931D1F6959EEE /* Pods-CryptoTickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoTickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB138B411B26EFD84858995DD276C1C3 /* Pods-CryptoTickerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoTickerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFD1335423C070BF36D04BEA651E520F /* Pods-CryptoTicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoTicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EE7445186161D6663D33986B0ADC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AE93BC79B398636792D92FBBCFC879 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED47A4DDF852423AA75B7250D63377D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7090C42629299F51480A7C5668A478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62227A4374579F193F3BC43ED094269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15613AD4BB208987318600803406FB9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A4399004CDE2493C0A21A9CE502AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B476F06664A3913B29AC8F50B2A050A /* Pods_CryptoTicker.framework */,
+				9A2F591E8FE589C33915051A60F214AC /* Pods_CryptoTicker_CryptoTickerUITests.framework */,
+				E3BCFB70C99EDF66966307DB574E6179 /* Pods_CryptoTickerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FB98BE62A534D78675F1B2389151B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6887F5BE0ACCF223200333C2F8B22D5A /* Pods-CryptoTicker */,
+				CACAAC33A89E563AB1DE11DB104FE668 /* Pods-CryptoTicker-CryptoTickerUITests */,
+				CD1AFEB6FAC77D5B3E7BB64FA0DE2527 /* Pods-CryptoTickerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6887F5BE0ACCF223200333C2F8B22D5A /* Pods-CryptoTicker */ = {
+			isa = PBXGroup;
+			children = (
+				131A215B565CB3F70E2C77BE61B2927E /* Pods-CryptoTicker.modulemap */,
+				FFD1335423C070BF36D04BEA651E520F /* Pods-CryptoTicker-acknowledgements.markdown */,
+				4A70FF5D488B2CBA86DCCCCC1A6B531C /* Pods-CryptoTicker-acknowledgements.plist */,
+				612853560B2F7F70B3190F962E1C8466 /* Pods-CryptoTicker-dummy.m */,
+				C1AE3D7F5321CC73AC9750DEBA29C80C /* Pods-CryptoTicker-Info.plist */,
+				2C2259D4A23CBD3C9BC3882D2FB50370 /* Pods-CryptoTicker-umbrella.h */,
+				420BC5D6DB7176480BBAAF03BB24457F /* Pods-CryptoTicker.debug.xcconfig */,
+				ADF212A064B1B2012E42FCF05169829A /* Pods-CryptoTicker.release.xcconfig */,
+			);
+			name = "Pods-CryptoTicker";
+			path = "Target Support Files/Pods-CryptoTicker";
+			sourceTree = "<group>";
+		};
+		CACAAC33A89E563AB1DE11DB104FE668 /* Pods-CryptoTicker-CryptoTickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A695F03BFB57E938D220215DFB5DC338 /* Pods-CryptoTicker-CryptoTickerUITests.modulemap */,
+				DEBE8716145F983701DFF8E3711C6648 /* Pods-CryptoTicker-CryptoTickerUITests-acknowledgements.markdown */,
+				1EE772A31D998CFE396F30D0A929293B /* Pods-CryptoTicker-CryptoTickerUITests-acknowledgements.plist */,
+				6913BF7C3B46D66DAD9B19774E4D8C65 /* Pods-CryptoTicker-CryptoTickerUITests-dummy.m */,
+				E0B6ABA5F6A8618E302235E1B141B600 /* Pods-CryptoTicker-CryptoTickerUITests-Info.plist */,
+				5ECD26DD7367918C9B73F9DE377AA3E1 /* Pods-CryptoTicker-CryptoTickerUITests-umbrella.h */,
+				EF86E74D96F5FB1BF2CABF42D6C8D41D /* Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig */,
+				28D346E6CA5CA11CE619D0B4482D4F11 /* Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig */,
+			);
+			name = "Pods-CryptoTicker-CryptoTickerUITests";
+			path = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests";
+			sourceTree = "<group>";
+		};
+		CD1AFEB6FAC77D5B3E7BB64FA0DE2527 /* Pods-CryptoTickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DDA53FFDA74A0697D5C0BDEC914CA /* Pods-CryptoTickerTests.modulemap */,
+				FB138B411B26EFD84858995DD276C1C3 /* Pods-CryptoTickerTests-acknowledgements.markdown */,
+				BE6A398625341D1656CBCBAAA9BAEE1C /* Pods-CryptoTickerTests-acknowledgements.plist */,
+				2C38107DEA462B2AE06AE83FA13AB70F /* Pods-CryptoTickerTests-dummy.m */,
+				0C11C4BCE43F204B117043CD869B90CE /* Pods-CryptoTickerTests-Info.plist */,
+				724A16E344FA0F88E97EAC0EAD9F4682 /* Pods-CryptoTickerTests-umbrella.h */,
+				F2BB0CBBDAA6054986D931D1F6959EEE /* Pods-CryptoTickerTests.debug.xcconfig */,
+				4F62294F578AB31FD07EC700910BC5F4 /* Pods-CryptoTickerTests.release.xcconfig */,
+			);
+			name = "Pods-CryptoTickerTests";
+			path = "Target Support Files/Pods-CryptoTickerTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				03A4399004CDE2493C0A21A9CE502AA3 /* Products */,
+				11FB98BE62A534D78675F1B2389151B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D47B987B132C219BDC7139A226A1957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2C67AC6FA27BED16C42CFE320E1AED /* Pods-CryptoTicker-CryptoTickerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144115218E3508079967E7E5EAD633F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D51B6D73CE4C5F83643E85DA5BAD4E /* Pods-CryptoTicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7B3D63B27AC1344F372A623CF0FCA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA176E761C73A055AE36B8A3C3C6E9E6 /* Pods-CryptoTickerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		220A7E51576D9B88E99D4F0E8B26417F /* Pods-CryptoTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FEB96CD18820C8C117555FEE1F5317 /* Build configuration list for PBXNativeTarget "Pods-CryptoTicker" */;
+			buildPhases = (
+				144115218E3508079967E7E5EAD633F2 /* Headers */,
+				B7C62F427BDCE32A36ED594582E1FCED /* Sources */,
+				E62227A4374579F193F3BC43ED094269 /* Frameworks */,
+				C815DAF1F2059877D575BE1EA3F736AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoTicker";
+			productName = "Pods-CryptoTicker";
+			productReference = 1B476F06664A3913B29AC8F50B2A050A /* Pods_CryptoTicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23F6B62D9DBD7F6AB03A0F89DDB4485C /* Pods-CryptoTicker-CryptoTickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E186A65745FAFD077D6786F63CE916 /* Build configuration list for PBXNativeTarget "Pods-CryptoTicker-CryptoTickerUITests" */;
+			buildPhases = (
+				0D47B987B132C219BDC7139A226A1957 /* Headers */,
+				D4CFDD232C7780FBD5FDD5137E767AED /* Sources */,
+				9ED47A4DDF852423AA75B7250D63377D /* Frameworks */,
+				CCB4C5C3B2C6DCE875C2CC2747FCBC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoTicker-CryptoTickerUITests";
+			productName = "Pods-CryptoTicker-CryptoTickerUITests";
+			productReference = 9A2F591E8FE589C33915051A60F214AC /* Pods_CryptoTicker_CryptoTickerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		644A957F54278B290770012926468F39 /* Pods-CryptoTickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F121B68938A87F099F26A5A40CED700 /* Build configuration list for PBXNativeTarget "Pods-CryptoTickerTests" */;
+			buildPhases = (
+				9F7B3D63B27AC1344F372A623CF0FCA3 /* Headers */,
+				9B5EC6C25EBF1FA42CCB6197E09212F2 /* Sources */,
+				46EE7445186161D6663D33986B0ADC85 /* Frameworks */,
+				B8312FCDBEF521D4D4DC5DA4D15BC47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383630492C5D5402C0BDE6C1F1D4A32A /* PBXTargetDependency */,
+			);
+			name = "Pods-CryptoTickerTests";
+			productName = "Pods-CryptoTickerTests";
+			productReference = E3BCFB70C99EDF66966307DB574E6179 /* Pods_CryptoTickerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 03A4399004CDE2493C0A21A9CE502AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220A7E51576D9B88E99D4F0E8B26417F /* Pods-CryptoTicker */,
+				23F6B62D9DBD7F6AB03A0F89DDB4485C /* Pods-CryptoTicker-CryptoTickerUITests */,
+				644A957F54278B290770012926468F39 /* Pods-CryptoTickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8312FCDBEF521D4D4DC5DA4D15BC47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C815DAF1F2059877D575BE1EA3F736AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4C5C3B2C6DCE875C2CC2747FCBC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5EC6C25EBF1FA42CCB6197E09212F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0498B8E83E1D85CB3574BF3218CF9D /* Pods-CryptoTickerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C62F427BDCE32A36ED594582E1FCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B9044CC3247484A2E0AE4BF8772E8C /* Pods-CryptoTicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CFDD232C7780FBD5FDD5137E767AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8DD9AFC0A9D33C16E3D164986E671C /* Pods-CryptoTicker-CryptoTickerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		383630492C5D5402C0BDE6C1F1D4A32A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CryptoTicker";
+			target = 220A7E51576D9B88E99D4F0E8B26417F /* Pods-CryptoTicker */;
+			targetProxy = A7B123B3B7E04D25A5498E9A6FEC9EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048B44AED2E4696C16D338BCC0A63583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF86E74D96F5FB1BF2CABF42D6C8D41D /* Pods-CryptoTicker-CryptoTickerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests/Pods-CryptoTicker-CryptoTickerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests/Pods-CryptoTicker-CryptoTickerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EB5B66447549754C440C06D8AA27FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BB0CBBDAA6054986D931D1F6959EEE /* Pods-CryptoTickerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		738C4500B67E584EEB4509E79C5E7751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420BC5D6DB7176480BBAAF03BB24457F /* Pods-CryptoTicker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoTicker/Pods-CryptoTicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoTicker/Pods-CryptoTicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EC69F59FF2E653BCE579E1F362208B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF212A064B1B2012E42FCF05169829A /* Pods-CryptoTicker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoTicker/Pods-CryptoTicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoTicker/Pods-CryptoTicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3E3DF7601B7BE012A3696F07B67346F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D346E6CA5CA11CE619D0B4482D4F11 /* Pods-CryptoTicker-CryptoTickerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests/Pods-CryptoTicker-CryptoTickerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoTicker-CryptoTickerUITests/Pods-CryptoTicker-CryptoTickerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9C04379191FF755ED0008570F8648DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F62294F578AB31FD07EC700910BC5F4 /* Pods-CryptoTickerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F121B68938A87F099F26A5A40CED700 /* Build configuration list for PBXNativeTarget "Pods-CryptoTickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB5B66447549754C440C06D8AA27FF6 /* Debug */,
+				F9C04379191FF755ED0008570F8648DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FEB96CD18820C8C117555FEE1F5317 /* Build configuration list for PBXNativeTarget "Pods-CryptoTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738C4500B67E584EEB4509E79C5E7751 /* Debug */,
+				7EC69F59FF2E653BCE579E1F362208B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E186A65745FAFD077D6786F63CE916 /* Build configuration list for PBXNativeTarget "Pods-CryptoTicker-CryptoTickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B44AED2E4696C16D338BCC0A63583 /* Debug */,
+				D3E3DF7601B7BE012A3696F07B67346F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
