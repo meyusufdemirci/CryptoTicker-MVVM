@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C9CCDF8925D1E6F2004EDF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF8825D1E6F2004EDF08 /* AppDelegate.swift */; };
 		C9CCDF8B25D1E6F2004EDF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF8A25D1E6F2004EDF08 /* SceneDelegate.swift */; };
-		C9CCDF8D25D1E6F2004EDF08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF8C25D1E6F2004EDF08 /* ViewController.swift */; };
-		C9CCDF9025D1E6F2004EDF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CCDF8E25D1E6F2004EDF08 /* Main.storyboard */; };
 		C9CCDF9225D1E6F3004EDF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CCDF9125D1E6F3004EDF08 /* Assets.xcassets */; };
 		C9CCDF9525D1E6F3004EDF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CCDF9325D1E6F3004EDF08 /* LaunchScreen.storyboard */; };
 		C9CCDFA025D1E6F3004EDF08 /* CryptoTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF9F25D1E6F3004EDF08 /* CryptoTickerTests.swift */; };
@@ -38,8 +36,6 @@
 		C9CCDF8525D1E6F2004EDF08 /* CryptoTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CCDF8825D1E6F2004EDF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CCDF8A25D1E6F2004EDF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9CCDF8C25D1E6F2004EDF08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9CCDF8F25D1E6F2004EDF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9CCDF9125D1E6F3004EDF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9CCDF9425D1E6F3004EDF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9CCDF9625D1E6F3004EDF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +72,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9665EE025D1E75100F8C69E /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCDF9625D1E6F3004EDF08 /* Info.plist */,
+				C9CCDF8825D1E6F2004EDF08 /* AppDelegate.swift */,
+				C9CCDF8A25D1E6F2004EDF08 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		C9665EE425D1E75F00F8C69E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCDF9125D1E6F3004EDF08 /* Assets.xcassets */,
+				C9CCDF9325D1E6F3004EDF08 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C9CCDF7C25D1E6F2004EDF08 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +114,8 @@
 		C9CCDF8725D1E6F2004EDF08 /* CryptoTicker */ = {
 			isa = PBXGroup;
 			children = (
-				C9CCDF8825D1E6F2004EDF08 /* AppDelegate.swift */,
-				C9CCDF8A25D1E6F2004EDF08 /* SceneDelegate.swift */,
-				C9CCDF8C25D1E6F2004EDF08 /* ViewController.swift */,
-				C9CCDF8E25D1E6F2004EDF08 /* Main.storyboard */,
-				C9CCDF9125D1E6F3004EDF08 /* Assets.xcassets */,
-				C9CCDF9325D1E6F3004EDF08 /* LaunchScreen.storyboard */,
-				C9CCDF9625D1E6F3004EDF08 /* Info.plist */,
+				C9665EE425D1E75F00F8C69E /* Resources */,
+				C9665EE025D1E75100F8C69E /* Supports */,
 			);
 			path = CryptoTicker;
 			sourceTree = "<group>";
@@ -233,7 +243,6 @@
 			files = (
 				C9CCDF9525D1E6F3004EDF08 /* LaunchScreen.storyboard in Resources */,
 				C9CCDF9225D1E6F3004EDF08 /* Assets.xcassets in Resources */,
-				C9CCDF9025D1E6F2004EDF08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CCDF8D25D1E6F2004EDF08 /* ViewController.swift in Sources */,
 				C9CCDF8925D1E6F2004EDF08 /* AppDelegate.swift in Sources */,
 				C9CCDF8B25D1E6F2004EDF08 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9CCDF8E25D1E6F2004EDF08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9CCDF8F25D1E6F2004EDF08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9CCDF9325D1E6F3004EDF08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,7 +438,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL6ERJVJSX;
-				INFOPLIST_FILE = CryptoTicker/Info.plist;
+				INFOPLIST_FILE = CryptoTicker/Supports/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demirciy.CryptoTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,7 +458,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL6ERJVJSX;
-				INFOPLIST_FILE = CryptoTicker/Info.plist;
+				INFOPLIST_FILE = CryptoTicker/Supports/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demirciy.CryptoTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
