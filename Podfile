@@ -6,6 +6,8 @@ target 'CryptoTicker' do
   use_frameworks!
 
   # Pods for CryptoTicker
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'CryptoTickerTests' do
     inherit! :search_paths
