@@ -24,8 +24,6 @@ class ListController: UITableViewController {
         self.viewModel = viewModel
 
         super.init(style: .grouped)
-
-        self.viewModel.delegate = self
     }
 
     required init?(coder: NSCoder) {
@@ -38,6 +36,14 @@ class ListController: UITableViewController {
         navigationItem.searchController = searchController
 
         searchController.searchResultsUpdater = self
+
+        viewModel.coinsDidRefreshSuccessfully = { [weak self] in
+            self?.tableView.reloadData()
+        }
+
+        viewModel.coinsDidRefreshUnsuccessfully = { [weak self] in
+            // An error occured
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -84,18 +90,5 @@ extension ListController: UISearchResultsUpdating {
 
     func updateSearchResults(for searchController: UISearchController) {
         viewModel.search(searchController.searchBar.text)
-    }
-}
-
-// MARK: - ListDelegate
-
-extension ListController: ListDelegate {
-
-    func coinsDidRefreshSuccessfully() {
-        tableView.reloadData()
-    }
-
-    func coinsDidRefreshUnsuccessfully() {
-        // An error occured
     }
 }
