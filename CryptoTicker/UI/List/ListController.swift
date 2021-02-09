@@ -68,6 +68,13 @@ extension ListController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+
+        let coin = viewModel.coins[indexPath.row]
+
+        let coinViewModel = CoinViewModel(coin: coin)
+        let coinController = CoinController(viewModel: coinViewModel)
+
+        navigationController?.show(coinController, sender: self)
     }
 }
 
