@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		C9CCDF9525D1E6F3004EDF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CCDF9325D1E6F3004EDF08 /* LaunchScreen.storyboard */; };
 		C9CCDFA025D1E6F3004EDF08 /* CryptoTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDF9F25D1E6F3004EDF08 /* CryptoTickerTests.swift */; };
 		C9CCDFAB25D1E6F3004EDF08 /* CryptoTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCDFAA25D1E6F3004EDF08 /* CryptoTickerUITests.swift */; };
+		C9F813F425D5F920000CEC17 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F813F325D5F920000CEC17 /* UITableView+Extension.swift */; };
 		DC080BD9F6D346B51499C588 /* Pods_CryptoTicker_CryptoTickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC62743FAEB0B1DD61662A5 /* Pods_CryptoTicker_CryptoTickerUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		C9CCDFA625D1E6F3004EDF08 /* CryptoTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CCDFAA25D1E6F3004EDF08 /* CryptoTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTickerUITests.swift; sourceTree = "<group>"; };
 		C9CCDFAC25D1E6F3004EDF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F813F325D5F920000CEC17 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		CCC62743FAEB0B1DD61662A5 /* Pods_CryptoTicker_CryptoTickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoTicker_CryptoTickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB43E73702805689B79A269 /* Pods-CryptoTickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTickerTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4061E8F1FF3B6E9CFB9C048 /* Pods-CryptoTickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoTickerTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoTickerTests/Pods-CryptoTickerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				C9665EE425D1E75F00F8C69E /* Resources */,
 				C9665EE025D1E75100F8C69E /* Supports */,
 				C91A2D1F25D1E8910047B045 /* UI */,
+				C9F813F125D5F920000CEC17 /* Utilities */,
 			);
 			path = CryptoTicker;
 			sourceTree = "<group>";
@@ -210,6 +213,22 @@
 				C9CCDFAC25D1E6F3004EDF08 /* Info.plist */,
 			);
 			path = CryptoTickerUITests;
+			sourceTree = "<group>";
+		};
+		C9F813F125D5F920000CEC17 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C9F813F225D5F920000CEC17 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C9F813F225D5F920000CEC17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9F813F325D5F920000CEC17 /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F334AC90D0CF0699528D58DE /* Pods */ = {
@@ -469,6 +488,7 @@
 				C9CCDF8B25D1E6F2004EDF08 /* SceneDelegate.swift in Sources */,
 				C91A2D2A25D1E8D20047B045 /* ListViewModel.swift in Sources */,
 				C91A2D2225D1E8A30047B045 /* ListController.swift in Sources */,
+				C9F813F425D5F920000CEC17 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
