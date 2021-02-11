@@ -5,31 +5,24 @@
 //  Created by Yusuf Demirci on 08.02.21.
 //
 
-import Foundation
+import RxSwift
 
 class ListViewModel {
 
     // MARK: Properties
 
-    var coins: [Coin] = []
-
-    var coinsDidRefreshSuccessfully: (() -> Void)?
-    var coinsDidRefreshUnsuccessfully: (() -> Void)?
+    var coins = PublishSubject<[Coin]>()
 
     func refreshCoins() {
-        coins = getDummyCoins()
-        
-        coinsDidRefreshSuccessfully?()
+        coins.onNext(getDummyCoins())
     }
 
     func search(_ text: String?) {
         if let text = text, !text.isEmpty {
-            coins = getDummyCoins().filter { $0.symbol.lowercased().contains(text.lowercased()) }
+            coins.onNext(getDummyCoins().filter { $0.symbol.lowercased().contains(text.lowercased()) })
         } else {
-            coins = getDummyCoins()
+            coins.onNext(getDummyCoins())
         }
-
-        coinsDidRefreshSuccessfully?()
     }
 }
 

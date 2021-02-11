@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ListController: UITableViewController {
 
@@ -19,6 +21,8 @@ class ListController: UITableViewController {
     }()
 
     private let viewModel: ListViewModel
+
+    private let disposeBag = DisposeBag()
 
     init(viewModel: ListViewModel = ListViewModel()) {
         self.viewModel = viewModel
@@ -35,60 +39,45 @@ class ListController: UITableViewController {
 
         navigationItem.searchController = searchController
 
-        searchController.searchResultsUpdater = self
+        // IGNORE: This is just for running RxSwift with UITableViewController
+        tableView.dataSource = nil
 
-        viewModel.coinsDidRefreshSuccessfully = { [weak self] in
-            self?.tableView.reloadData()
-        }
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "ListCell")
 
-        viewModel.coinsDidRefreshUnsuccessfully = { [weak self] in
-            // An error occured
-        }
+        // Cell displaying
+        viewModel.coins
+            .bind(to: tableView.rx.items(cellIdentifier: "ListCell", cellType: UITableViewCell.self)) { index, model, cell in
+                cell.textLabel?.text = model.symbol
+                cell.detailTextLabel?.text = "\(model.price)"
+            }
+            .disposed(by: disposeBag)
+
+        // Row selection
+        tableView.rx
+            .modelSelected(Coin.self)
+            .subscribe(onNext: { coin in
+                self.tableView.deselectAllSelectedRows()
+
+                let coinViewModel = CoinViewModel(coin: coin)
+                let coinController = CoinController(viewModel: coinViewModel)
+
+                self.navigationController?.show(coinController, sender: self)
+            })
+            .disposed(by: disposeBag)
+
+        // Search
+        searchController.searchBar.rx.text
+            .orEmpty
+            .throttle(.milliseconds(300), scheduler: MainScheduler.instance)
+            .subscribe(onNext: { (text) in
+                self.viewModel.search(text)
+            })
+            .disposed(by: disposeBag)
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
         viewModel.refreshCoins()
-    }
-}
-
-// MARK: - TableView
-
-extension ListController {
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.coins.count
-    }
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let coin = viewModel.coins[indexPath.row]
-
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: "\(indexPath.section)_\(indexPath.row)")
-
-        cell.textLabel?.text = coin.symbol
-        cell.detailTextLabel?.text = "\(coin.price)"
-
-        return cell
-    }
-
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-
-        let coin = viewModel.coins[indexPath.row]
-
-        let coinViewModel = CoinViewModel(coin: coin)
-        let coinController = CoinController(viewModel: coinViewModel)
-
-        navigationController?.show(coinController, sender: self)
-    }
-}
-
-// MARK: - UISearchResultsUpdating
-
-extension ListController: UISearchResultsUpdating {
-
-    func updateSearchResults(for searchController: UISearchController) {
-        viewModel.search(searchController.searchBar.text)
     }
 }
