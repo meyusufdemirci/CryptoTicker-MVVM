@@ -13,13 +13,13 @@ class ListViewModel {
 
     var coins: [Coin] = []
 
-    var coinsDidRefreshSuccessfully: (() -> Void)?
-    var coinsDidRefreshUnsuccessfully: (() -> Void)?
+    var coinsDidRefresh: (() -> Void)?
+    var coinsCouldNotRefresh: (() -> Void)?
 
     func refreshCoins() {
         coins = getDummyCoins()
         
-        coinsDidRefreshSuccessfully?()
+        coinsDidRefresh?()
     }
 
     func search(_ text: String?) {
@@ -29,7 +29,7 @@ class ListViewModel {
             coins = getDummyCoins()
         }
 
-        coinsDidRefreshSuccessfully?()
+        coinsDidRefresh?()
     }
 }
 

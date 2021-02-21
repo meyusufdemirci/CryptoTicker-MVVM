@@ -37,11 +37,11 @@ class ListController: UITableViewController {
 
         searchController.searchResultsUpdater = self
 
-        viewModel.coinsDidRefreshSuccessfully = { [weak self] in
+        viewModel.coinsDidRefresh = { [weak self] in
             self?.tableView.reloadData()
         }
 
-        viewModel.coinsDidRefreshUnsuccessfully = { [weak self] in
+        viewModel.coinsCouldNotRefresh = { [weak self] in
             // An error occured
         }
     }
