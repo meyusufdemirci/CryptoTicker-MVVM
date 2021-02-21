@@ -8,8 +8,8 @@
 import Foundation
 
 protocol ListDelegate {
-    func coinsDidRefreshSuccessfully()
-    func coinsDidRefreshUnsuccessfully()
+    func coinsDidRefresh()
+    func coinsCouldNotRefresh()
 }
 
 class ListViewModel {
@@ -23,7 +23,7 @@ class ListViewModel {
     func refreshCoins() {
         coins = getDummyCoins()
         
-        delegate?.coinsDidRefreshSuccessfully()
+        delegate?.coinsDidRefresh()
     }
 
     func search(_ text: String?) {
@@ -33,7 +33,7 @@ class ListViewModel {
             coins = getDummyCoins()
         }
 
-        delegate?.coinsDidRefreshSuccessfully()
+        delegate?.coinsDidRefresh()
     }
 }
 

@@ -91,11 +91,11 @@ extension ListController: UISearchResultsUpdating {
 
 extension ListController: ListDelegate {
 
-    func coinsDidRefreshSuccessfully() {
+    func coinsDidRefresh() {
         tableView.reloadData()
     }
 
-    func coinsDidRefreshUnsuccessfully() {
+    func coinsCouldNotRefresh() {
         // An error occured
     }
 }
