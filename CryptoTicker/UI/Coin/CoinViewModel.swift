@@ -5,15 +5,16 @@
 //  Created by Yusuf Demirci on 09.02.21.
 //
 
-import Foundation
+import RxCocoa
+import RxSwift
 
 class CoinViewModel {
 
     // MARK: Properties
 
-    let coin: Coin
+    let coin: BehaviorRelay<Coin>
 
     init(coin: Coin) {
-        self.coin = coin
+        self.coin = .init(value: coin)
     }
 }

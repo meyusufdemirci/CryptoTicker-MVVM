@@ -5,23 +5,24 @@
 //  Created by Yusuf Demirci on 08.02.21.
 //
 
+import RxCocoa
 import RxSwift
 
 class ListViewModel {
 
     // MARK: Properties
 
-    var coins = PublishSubject<[Coin]>()
+    let coins: BehaviorRelay<[Coin]> = .init(value: [])
 
     func refreshCoins() {
-        coins.onNext(getDummyCoins())
+        coins.accept(getDummyCoins())
     }
 
     func search(_ text: String?) {
         if let text = text, !text.isEmpty {
-            coins.onNext(getDummyCoins().filter { $0.symbol.lowercased().contains(text.lowercased()) })
+            coins.accept(getDummyCoins().filter { $0.symbol.lowercased().contains(text.lowercased()) })
         } else {
-            coins.onNext(getDummyCoins())
+            coins.accept(getDummyCoins())
         }
     }
 }
