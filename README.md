@@ -53,10 +53,10 @@ The controller and view model communicates with reactive programming
 
 **View Model**
 ```
-var coins = PublishSubject<[Coin]>()
+let coins: BehaviorRelay<[Coin]> = .init(value: [])
 
 func refreshCoins() {
-    coins.onNext(getDummyCoins())
+    coins.accept(getDummyCoins())
 }
 ```
 **Controller**
