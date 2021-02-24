@@ -16,16 +16,16 @@ The controller and view model communicates with protocol functions
 **View Model**
 ```
 protocol ListDelegate {
-    func coinsDidRefreshSuccessfully()
+    func coinsDidRefresh()
 }
 
 func refreshCoins() {
-    delegate?.coinsDidRefreshSuccessfully()
+    delegate?.coinsDidRefresh()
 }
 ```
 **Controller**
 ```
-func coinsDidRefreshSuccessfully() {
+func coinsDidRefresh() {
     tableView.reloadData()
 }
 ```
@@ -35,15 +35,15 @@ The controller and view model communicates with closures
 
 **View Model**
 ```
-var coinsDidRefreshSuccessfully: (() -> Void)?
+var coinsDidRefresh: (() -> Void)?
 
 func refreshCoins() {
-    coinsDidRefreshSuccessfully?()
+    coinsDidRefresh?()
 }
 ```
 **Controller**
 ```
-viewModel.coinsDidRefreshSuccessfully = { [weak self] in
+viewModel.coinsDidRefresh = { [weak self] in
     self?.tableView.reloadData()
 }
 ```
