@@ -1,6 +1,8 @@
 # CryptoTicker
 Simple MVVM example project with protocol, closure and, reactive programming(RxSwift) scenarios.
 
+If you would like to understand the idea behind it, you can read the article about the project in [Medium](https://demirciy.medium.com/mvvm-in-ios-development-with-protocol-closure-reactive-programming-rxswift-d0933b235235).
+
 The project has 2 simple screens which are list and coin. In the list, can be seen the coins in a list and searched for them. 
 In the coin, the coin model is passed from the list to here and is showed its symbol in the navigation bar title.
 
