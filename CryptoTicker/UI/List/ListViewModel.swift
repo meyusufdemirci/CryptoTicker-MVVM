@@ -7,23 +7,14 @@
 
 import Foundation
 
-protocol ListDelegate {
-    func coinsDidRefresh()
-    func coinsCouldNotRefresh()
-}
-
 class ListViewModel {
 
     // MARK: Properties
 
-    var coins: [Coin] = []
-
-    var delegate: ListDelegate?
+    @Published private(set) var coins: [Coin] = []
 
     func refreshCoins() {
         coins = getDummyCoins()
-        
-        delegate?.coinsDidRefresh()
     }
 
     func search(_ text: String?) {
@@ -32,8 +23,6 @@ class ListViewModel {
         } else {
             coins = getDummyCoins()
         }
-
-        delegate?.coinsDidRefresh()
     }
 }
 
