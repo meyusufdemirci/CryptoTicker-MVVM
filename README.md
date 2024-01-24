@@ -1,5 +1,5 @@
 # CryptoTicker
-Simple MVVM example project with protocol, closure and, reactive programming(RxSwift) scenarios.
+Simple MVVM example project with protocol, closure, reactive programming(RxSwift), and comebine scenarios.
 
 If you would like to understand the idea behind it, you can read the article about the project in [Medium](https://demirciy.medium.com/mvvm-in-ios-development-with-protocol-closure-reactive-programming-rxswift-d0933b235235).
 
@@ -16,7 +16,7 @@ Please change the branches to see the scenarios.
 The controller and view model communicates with protocol functions
 
 **View Model**
-```
+```swift
 protocol ListDelegate {
     func coinsDidRefresh()
 }
@@ -26,7 +26,7 @@ func refreshCoins() {
 }
 ```
 **Controller**
-```
+```swift
 func coinsDidRefresh() {
     tableView.reloadData()
 }
@@ -36,7 +36,7 @@ func coinsDidRefresh() {
 The controller and view model communicates with closures
 
 **View Model**
-```
+```swift
 var coinsDidRefresh: (() -> Void)?
 
 func refreshCoins() {
@@ -44,9 +44,9 @@ func refreshCoins() {
 }
 ```
 **Controller**
-```
-viewModel.coinsDidRefresh = { [weak self] in
-    self?.tableView.reloadData()
+```swift
+viewModel.coinsDidRefresh = { _ in
+    tableView.reloadData()
 }
 ```
 
@@ -54,7 +54,7 @@ viewModel.coinsDidRefresh = { [weak self] in
 The controller and view model communicates with reactive programming
 
 **View Model**
-```
+```swift
 let coins: BehaviorRelay<[Coin]> = .init(value: [])
 
 func refreshCoins() {
@@ -62,9 +62,31 @@ func refreshCoins() {
 }
 ```
 **Controller**
-```
+```swift
 viewModel.coins.bind(to: tableView.rx.items(cellIdentifier: "ListCell", cellType: UITableViewCell.self)) { index, model, cell in
     cell.textLabel?.text = model.symbol
     cell.detailTextLabel?.text = "\(model.price)"
-}.disposed(by: disposeBag)
+}
+.disposed(by: disposeBag)
+```
+
+## Combine
+The controller and view model communicates with Combine framework
+
+**View Model**
+```swift
+@Published var coins: [Coin] = []
+
+func refreshCoins() {
+    coins = getDummyCoins()
+}
+```
+
+**Controller**
+```swift
+viewModel.$coins
+    .sink { coins in
+        tableView.reloadData()
+    }
+    .store(in: &subscribers)
 ```
