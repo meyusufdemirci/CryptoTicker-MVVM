@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 
 class ListController: UITableViewController {
 
@@ -19,13 +20,19 @@ class ListController: UITableViewController {
     }()
 
     private let viewModel: ListViewModel
+    private var subscribers: Set<AnyCancellable> = []
 
     init(viewModel: ListViewModel = ListViewModel()) {
         self.viewModel = viewModel
 
         super.init(style: .grouped)
 
-        self.viewModel.delegate = self
+        self.viewModel.$coins
+            .sink { coins in
+                DispatchQueue.main.async { [weak self] in
+                    self?.tableView.reloadData()
+                }
+            }.store(in: &subscribers)
     }
 
     required init?(coder: NSCoder) {
@@ -84,18 +91,5 @@ extension ListController: UISearchResultsUpdating {
 
     func updateSearchResults(for searchController: UISearchController) {
         viewModel.search(searchController.searchBar.text)
-    }
-}
-
-// MARK: - ListDelegate
-
-extension ListController: ListDelegate {
-
-    func coinsDidRefresh() {
-        tableView.reloadData()
-    }
-
-    func coinsCouldNotRefresh() {
-        // An error occured
     }
 }
